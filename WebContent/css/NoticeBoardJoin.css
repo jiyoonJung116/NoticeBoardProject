@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #e1faf2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.signup-container {
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 537px;
+	max-width: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #333333;
+}
+
+label {
+	display: block;
+	text-align: left;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #555555;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"],
+	input[type="radio"], input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	font-size: 16px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type="submit"] {
+	background-color: #aaf2db;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #5cedbf;
+}
+
+.gender-label {
+	margin-right: 10px;
+}
+
+.choose_man{
+	position: relative;
+    right: 208px;
+    bottom: 3px;
+}
+.choose_woman{
+	position: relative;
+    right: 208px;
+    bottom: 21px;
+}
+
+.ui-datepicker-trigger {
+	background-color: white;
+    border: 1px solid #dbdde2;
+    position: relative;
+    height: 40px;
+    bottom: 50px;
+    float : right;
+}
+

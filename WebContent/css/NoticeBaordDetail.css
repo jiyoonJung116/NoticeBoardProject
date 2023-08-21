@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.board_font {
+	font-size: 28px;
+}
+
+body {
+	font-family: "Nanum Gothic", "Malgun Gothic", "맑은 고딕", "돋움", "Dotum",
+		"Apple Gothic", "Apple SD Gothic Neo", sans-serif;
+	color: rgb(85, 85, 85);
+}
+
+li {
+	list-style: none;
+}
+
+.detail_st {
+	border-bottom: 1px solid #e7e7e7;
+	width: 930px;
+}
+
+.detail_st1 {
+	padding: 9px 0 9px 15px;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #fff;
+	text-align: left;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.detail_st2 {
+	width: 80px;
+}
+.detail_st3 {
+	border-bottom: 1px solid #e7e7e7;
+}
+.detail_st4 {
+	margin-left: 391px;
+    margin-top: 148px;
+}
+.detail_st5 {
+	padding: 9px 0 0px 15px;
+	background-color: #fff;
+	text-align: left;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.detail_bt {
+	background: #f1f1f1;
+    color: #414141;
+    border: 1px solid #e0e0e0;
+    min-width: 80px;
+    height: 35px;
+    cursor: pointer;
+}
+.reply_bt {
+	background: white;
+    color: #414141;
+    border: 1px solid #FFFFFF;
+    min-width: 80px;
+    height: 43px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+.fl{
+	float : left;
+}
+.fr{
+	float : right;
+}
+
+.po_rela {
+	position: relative;
+}
+.board_background {
+	background-color: #fcf5f5;
+	height: 176px;
+}
+
+.board_font {
+	padding: 8px 26px;
+	position: absolute;
+	font: 700 94px 'Karla',Noto Sans KR,sans-serif;
+}
+
+.board_area{
+	resize: none;
+	width: 1163px;
+    height: 515px;
+    border: 1px solid #c2c2c2;
+}
+
+.comment_area{
+    width: 827px;
+    margin: auto;
+}
+.comment_area1{
+    margin-left: 542px;
+}
+.comment_write_area{
+	resize: none;
+    width: 827px;
+    margin-left: 542px;
+    border: 1px solid #e7e7e7;
+}
+.comment_write_nick{
+	margin-left: 541px;
+}
+.comment_write_complete{
+	margin-left: 1296px;
+}
+
+.comment_line{
+	border-top: 1px solid #e7e7e7;
+}
+
+.comment_nickname{
+	font-weight: 700;
+}
+
+.update_comment_area{
+	resize: none;
+	width: 1244px;
+    height: 440px;
+    border: 1px solid #c2c2c2;
+}
+
+.wirte_bt{
+	width: 120px;
+    height: 40px;
+    background: white;
+    border: 1px solid #c2c2c2;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.title_update{
+	width: 390px;
+    height: 24px;
+    border: 1px solid #c2c2c2;
+}
+
+body{
+	font: Roboto,Noto Sans KR,Nanum Barun Gothic,NanumGothic,Verdana,Dotum,AppleGothic,sans-serif;
+}
+
+.reply_st{
+	 border: 1px solid #e7e7e7;
+	 height: 80px;
+     width: 460px;
+}
+
+.reply_submit_bt{
+	 margin-left: 377px;
+}
+
+
+

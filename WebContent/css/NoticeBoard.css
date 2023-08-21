@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.board_font {
+	padding: 8px 26px;
+	position: absolute;
+	font: 700 94px 'Karla',Noto Sans KR,sans-serif;
+}
+
+.po_rela {
+	position: relative;
+}
+
+.board_background {
+	background-color: #fcf5f5;
+	height: 176px;
+}
+
+.board_background1 {
+	height: 60px;
+}
+
+.notice_bt {
+	background: white;
+	border: 1px solid #c2c2c2;
+	height: 34px;
+	width: 86px;
+	margin-right: 11px;
+	margin-top: 11px;
+}
+.notice_bt1 {
+	background: white;
+	border: 1px solid #c2c2c2;
+	width: 46px;
+	margin-right: 11px;
+	margin-top: 11px;
+}
+
+.notice_location {
+	left: 450px;
+}
+
+.notice_width {
+	width: 517px;
+	background-color: #f7f7f7;
+}
+
+.notice_width1 {
+	width: 180px;
+	background-color: #f7f7f7;
+}
+
+.notice_width2 {
+	width: 110px;
+	background-color: #f7f7f7;
+}
+
+.notice_width3 {
+	width: 170px;
+	background-color: #f7f7f7;
+}
+
+.notice_width4 {
+	width: 125px;
+	background-color: #f7f7f7;
+}
+.notice_width5 {
+	background-color: #f7f7f7;
+}
+
+th, td {
+	border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+.notice_st{
+	display: grid;
+    place-items: center;
+    height: 300px;
+}
+.notice_st1{
+	position: relative;
+    bottom: 156px;
+    left: 124px;
+    height: 21px;
+}
+
+/* body{
+	font: Roboto,Noto Sans KR,Nanum Barun Gothic,NanumGothic,Verdana,Dotum,AppleGothic,sans-serif;
+}
+
+table, tbody, tr, th, td {
+    font-family: "Nanum Gothic","Malgun Gothic","맑은 고딕","돋움","Dotum","Apple Gothic","Apple SD Gothic Neo",sans-serif;
+    font-size: 14px;
+    color: #999;
+} */
+
+.input_border{
+	border: 1px solid #c2c2c2;
+}

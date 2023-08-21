@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.write_st_width{
+	width: 1910px;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.board_font {
+	font-size: 28px;
+}
+
+body {
+	font-family: "Nanum Gothic", "Malgun Gothic", "맑은 고딕", "돋움", "Dotum",
+		"Apple Gothic", "Apple SD Gothic Neo", sans-serif;
+	color: rgb(85, 85, 85);
+}
+
+.detail_st {
+	border-bottom: 1px solid #e7e7e7;
+	width: 930px;
+}
+
+.detail_st1 {
+	padding: 9px 0 9px 15px;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #fff;
+	text-align: left;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.detail_st2 {
+	width: 80px;
+}
+.detail_bt {
+	background: #f1f1f1;
+    color: #414141;
+    border: 1px solid #e0e0e0;
+    min-width: 80px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.fl{
+	float : left;
+}
+
+.board_background {
+	background-color: #fcf5f5;
+	height: 176px;
+}
+
+.board_font {
+	padding: 8px 26px;
+	position: absolute;
+	font: 700 94px 'Karla',Noto Sans KR,sans-serif;
+}
+
+.board_area{
+	resize: none;
+	width: 1163px;
+    height: 515px;
+    border: 1px solid #c2c2c2;
+}
+
+body{
+	font: Roboto,Noto Sans KR,Nanum Barun Gothic,NanumGothic,Verdana,Dotum,AppleGothic,sans-serif;
+}
+
+.wirte_bt{
+	width: 100px;
+    height: 40px;
+    background: white;
+    border: 1px solid #c2c2c2;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+
+
